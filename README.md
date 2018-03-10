@@ -1,6 +1,6 @@
-# Java 7 New Features
+# Java 8 New Features
 
-This repository includes a presentation on Java 7 new features.
+This repository includes a presentation on Java 8 new features.
 
 ## license
 
@@ -12,11 +12,11 @@ Tools listed below are released under their own license.
 
 The slides are built using markdown and a minimalist toolset:
 
-Slides content is in `java7-new-features.md`.
+Slides content is in `java8-new-features.md`.
 
-The perl script `remark.pl` will convert the markdown file to an html file using [remarkjs](https://remarkjs.com) as the presentation engine. The result is a single `java7-new-feature.html` file. That is all you need to present (as long as you have an internet connection).
+The perl script `remark.pl` will convert the markdown file to an html file using [remarkjs](https://remarkjs.com) as the presentation engine. The result is a single `java8-new-feature.html` file. That is all you need to present (as long as you have an internet connection).
 
-The easiest way to convert to PDF is to print the slides from Google Chrome. If the slides look like they are not centered in the PDF, zoom to 200% before printing (ctrl-+ on windows, command-+ on mac).
+There are currently problems converting to PDF. This is linked to my choice of a 16:9 ratio. It works well on screen but doesn't seem to be compatible with the printers. My best results so far is using the ISOB5 format, landscape with 85% scaling. (I am suspecting that the CSS layout has specific device size but haven't had a chance to check this out).
 
 ## Need something more sophisticated
 
