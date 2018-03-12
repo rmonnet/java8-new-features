@@ -49,6 +49,17 @@ sub print_header {
         font-weight: normal;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .hljs-github table, th, td {
+        vertical-align: bottom;
+        padding: 10px;
+      }
+      .hljs-github th {
+        text-align: left;
+        border-bottom: 4px solid black;
+      }
+      .hljs-github tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
     </style>
   </head>
   <body>
@@ -71,6 +82,7 @@ sub print_footer {
     <script type="text/javascript">
       var slideshow = remark.create({
         ratio: '16:9',
+        highlightStyle: 'github'
       });
     </script>
   </body>
