@@ -552,7 +552,7 @@ public class Address {
 Company easyCompany = new Company();
 String easyCompanyCity = null;
 if (easyCompany.getAddress() != null 
-        && easyCompany.getAddress().getStreet() != null) {
+        && easyCompany.getAddress().getCity() != null) {
     easyCompanyCity = easyCompany.getAddress().getCity();
 }
 
